@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRegimentFromPlayerModifiers accepts custom units 1`] = `
+Object {
+  "currentMoral": 4,
+  "damangeModifiers": Object {
+    "fire": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+    "shock": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+  },
+  "discipline": 1,
+  "generalPips": Object {
+    "fire": 0,
+    "shock": 0,
+  },
+  "moralBonus": 0,
+  "tech": 25,
+  "troops": 1000,
+  "type": "infantry",
+  "unit": Object {
+    "fire": Object {
+      "def": 2,
+      "off": 2,
+    },
+    "moral": Object {
+      "def": 3,
+      "off": 3,
+    },
+    "name": "Reformed Tercio",
+    "shock": Object {
+      "def": 3,
+      "off": 2,
+    },
+    "tech": 19,
+  },
+  "unitCombatAbility": Object {
+    "artillery": 0,
+    "cavalry": 0,
+    "infantry": 0,
+  },
+}
+`;
+
+exports[`getRegimentFromPlayerModifiers has the correct default regiment 1`] = `
+Object {
+  "currentMoral": 3,
+  "damangeModifiers": Object {
+    "fire": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+    "shock": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+  },
+  "discipline": 1,
+  "generalPips": Object {
+    "fire": 0,
+    "shock": 0,
+  },
+  "moralBonus": 0,
+  "tech": 10,
+  "troops": 1000,
+  "type": "infantry",
+  "unit": Object {
+    "fire": Object {
+      "def": 0,
+      "off": 0,
+    },
+    "moral": Object {
+      "def": 1,
+      "off": 2,
+    },
+    "name": "Reformed Galloglaigh Infantry",
+    "shock": Object {
+      "def": 0,
+      "off": 2,
+    },
+    "tech": 9,
+  },
+  "unitCombatAbility": Object {
+    "artillery": 0,
+    "cavalry": 0,
+    "infantry": 0,
+  },
+}
+`;
+
+exports[`getRegimentFromPlayerModifiers sets the unit according to tech 1`] = `
+Object {
+  "currentMoral": 4,
+  "damangeModifiers": Object {
+    "fire": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+    "shock": Object {
+      "dealt": 0,
+      "received": 0,
+    },
+  },
+  "discipline": 1,
+  "generalPips": Object {
+    "fire": 0,
+    "shock": 0,
+  },
+  "moralBonus": 0,
+  "tech": 20,
+  "troops": 1000,
+  "type": "infantry",
+  "unit": Object {
+    "fire": Object {
+      "def": 2,
+      "off": 2,
+    },
+    "moral": Object {
+      "def": 3,
+      "off": 3,
+    },
+    "name": "Reformed Tercio",
+    "shock": Object {
+      "def": 3,
+      "off": 2,
+    },
+    "tech": 19,
+  },
+  "unitCombatAbility": Object {
+    "artillery": 0,
+    "cavalry": 0,
+    "infantry": 0,
+  },
+}
+`;
